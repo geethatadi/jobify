@@ -1,139 +1,70 @@
-# serverless-app
+# Getting Started with Create React App
 
-### API DEFINITIONS
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-API = https://kxk775by94.execute-api.us-west-2.amazonaws.com
+## Available Scripts
 
-STAGE = testing
+In the project directory, you can run:
 
-## Resources
+### `npm start`
 
-* CREATE POST 
- ```
-   API: "/posts/create_post"
-   Type: POST
-   Params: post_id, author, role, company_name, post_description, package
- ```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-*  UPDATE POST 
-  
-  ``` 
-  API: "/posts/update_post"
-  Type: POST
-  Params: {post_id, <params to be updated> }
-  ```
-*  ADD COMMENT TO POST 
-  ```
-  API: "/posts/add_comment_to_post"
-     Type: POST
-  Params: post_id, comment, author
-  ```
-  
-*  GET COMMENTS FOR POST 
-  ```
-  API: "/posts/get_comments_for_post"
-  Type: GET
-  Params: post_id
-  ```
-  
-*  DELETE COMMENT 
-   ``` 
-   API: "/posts/delete_comment"
-   Type: GET
-   Params: post_id, comment_id
-   ```
-*  LIKE POST 
- ```
- API: "/posts/like_post"
- Type: GET
- Params: post_id, user_name
- ```
- 
-*  DISLIKE POST 
-  ```
-  API: "/posts/dislike_post"
-  Type: GET
-  Params: post_id, user_id
-  ```
-*  DELETE POST
-   ```
-   API = "/posts/delete_post"
-   Type: GET
-   Params: post_id
-   ```
-*  GET SINGLE POST 
-  ```
-  API = "/posts/get_single_post"
-  Type: GET
-  Params: post_id
-  ```
-*  GET ALL POSTS 
-    ```
-    API: "/posts/get_all_posts"
-    Type: GET
-    Params: 
-       ```
-*  GET USER INTERESTED POSTS
-     ```
-     API: "/posts/get_user_interested_posts"
-     Type: GET
-     Params: user_name
-     ```
-     
-*  GET POSTS BY COMPANY NAME
-     ```
-     API: "/posts/get_posts_by_company_name"
-     Type: GET
-     QueryParams: company_name
-     ```
-*  GET_ALL_COMPANY_NAMES:
-   ```
-   API: "/posts/get_all_company_names"
-   Type: GET
-   ```
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-*  CREATE_USER
-    ```
-    API: "/users/create_user"
-       Type: POST
-    Params: user_name, "email", "roll_no", "current_company", "password"
-    ```
-*  GET_USER 
-   ```
-   API: "/users/get_user"
-   Type: GET
-   QueryParams: user_name
-    ```
-*  IS_AUTHENTICATED 
-    ```
-    API: "/users/is_authenticated"
-    Type: GET
-    QueryParams: user_name
-    ```
-*  UPDATE_USER 
-    ```
-    API: "/users/update_user"
-       Type: POST
-    Params: user_name, <fields to be updated>
-    
-*  ADD_TO_USER_INTERESTS
-  ```
-  API: "/users/add_to_user_interests"
-  Type: POST
-  Params: company_name
-  ```
+### `npm test`
 
-*  LOGIN 
-   ```
-   API: "/login"
-   Type: GET,
-   Params: user_name, password
-   ```
-   
-*  LOGOUT
-    ```
-    API: "/logout"
-    Type: GET
-    QueryParams: user_name
-    ```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
