@@ -1,0 +1,56 @@
+li {
+    float: left
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding:14px 16px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0
+}
+li a:hover {
+    color: rgb(233, 193, 16);
+}
+li a:focus{
+    color: rgb(233, 193, 16);
+}
+@media screen and (max-width: 599.95px){
+    .menuItems{
+        display: none;
+    }
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between ;
+    width: 100%
+}
+.Header h4{
+    margin-top:auto;
+    font-family:cursive;
+}
+
+.searchBar {
+    display:flex;
+    justify-content: left;
+}
+.searchBar input {
+    padding: 7px;
+    width: 400px;
+    border-radius: 5px;
+    border-color: white;
+    height: 36px;
+    margin: auto;
+}
+.searchBar input:focus{
+    outline:none;
+}
+
+.searchicon {
+    margin:auto;
+    color: gray;
+}

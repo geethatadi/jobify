@@ -1,0 +1,43 @@
+.profile-page{
+    height: 91vh;
+    padding:40px;
+    overflow-y:auto;
+}
+
+.profile-holder {
+    /* padding:23px; */
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    background: rgb(0, 0, 0, 0.1);
+    border:1px solid black;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 5px 33px 0px black
+}
+.profile {
+    padding: 10px;
+    text-align: center;
+    border-radius:10px;
+    width:20%;
+}
+
+.details{
+    /* background: white; */
+    margin-left: 20px;
+    padding: 20px;
+    /* border-radius: 10px; */
+    height:fit-content;
+    /* width:50%; */
+    font-size: 18px;
+    color:white;
+    width:80%;
+}
+tr{
+    height:45px;
+}
+
+.hideScroll::-webkit-scrollbar {
+    display: none;
+}

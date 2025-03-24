@@ -1,0 +1,1 @@
+export const api_url =  'https://kxk775by94.execute-api.us-west-2.amazonaws.com/testing'

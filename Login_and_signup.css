@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 64px);
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0,0,0,0.3);
+    border: 1px solid black;
+    border-radius:5px;
+    width: 400px;
+    height: fit-content;
+    padding: 23px;
+    box-shadow: 10px 10px 5px #4f4a4a;
+}
+.card input{
+    /* margin: 5px; */
+    padding: 10px;
+    width: 100%;
+    outline:none;
+}
+
+.fillForm p{
+    font-size: 27px;
+    color:antiquewhite;
+    text-align: center;
+    margin-bottom: 35px;
+    font-family: -webkit-body;
+    font-weight: bold;
+}
+
+.login_signup{
+    height: calc(100vh - 64px);
+}
+
+.login_signup .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.login_signup .logo span{
+    font-size: 89px;
+    color: antiquewhite;
+    font-family: cursive;
+}
+@media screen and (max-width: 599.95px){
+    .logo_content {
+        display:none;
+    }
+
+}
+/* h1 {
+    display: flex;
+    flex-direction: row;
+    color: antiquewhite;
+}
+h1:before, h1:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #ecbb0b;
+    margin: auto;
+}
+h1:before {
+    margin-right: 10px
+}
+h1:after {
+    margin-left: 10px
+} */
+
+.pwd_and_btn {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.pwd_and_btn .btn{
+    background-color:rgb(0,27,36);
+    color:white;
+}
+
+.btn:hover {
+    background-color:rgb(255, 255, 255);
+    color:rgb(0,27,36);
+}
+
+.pwd_and_btn a {
+    color:antiquewhite;
+    text-decoration: none;
+}
+
+.card-header {
+    width:100%;
+    background-color: rgb(0,27,36);
+    color:antiquewhite;
+}
+.haveAccount {
+    text-align: end;
+    width: 100%;
+    margin-top:20px;
+}
+
+.haveAccount a{
+    color:bisque;
+    text-decoration: none;
+}
+
+.login_signup dd {
+    color:#ecbb0b;
+    font-size: 25px;
+}
+
+
+.error{
+    color:#e6990b;
+
+}

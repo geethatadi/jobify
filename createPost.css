@@ -1,0 +1,17 @@
+.exp{
+    padding:10px;
+    font-size: 20px;
+    margin-bottom : 10px
+}
+
+.hideScroll::-webkit-scrollbar {
+    display: none;
+}
+
+.btn {
+    width: 100px
+}
+
+.inputfields input{
+    padding: 5px !important;
+}
